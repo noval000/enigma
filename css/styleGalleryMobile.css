@@ -1,0 +1,70 @@
+@media (max-width: 425px) {
+	.galleryMobile {
+		display: block;
+	}
+	.gallery425px {
+		display: flex;
+		flex-direction: column;
+	}
+	.flexPhotoGalleryMoile {
+		display: flex;
+		width: 100%;
+		max-width: 425px;
+		margin: 0 auto;
+	}
+	.flexPhotoGalleryEndMobile {
+		display: flex;
+		width: 100%;
+		max-width: 425px;
+		margin: 0 auto;
+	}
+	.flexPhotoGalleryEnd2Mobile {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		max-width: 425px;
+	}
+	.onePhotoMobile img {
+		width: 100%;
+		height: 150px;
+		padding: 0px 7px 7px 7px;
+	}
+	.prImgGalleryMobile {
+	    width: 50%;
+	    height: 150px;
+	    padding: 0px 0px 7px 7px;
+	}
+	.prImgGalleryMobile2 {
+	    width: 50%;
+	    height: 150px;
+	    padding-left: 7px;
+		padding-right: 7px;
+		padding-bottom: 7px;
+	}
+	.wImgGalleryHighMobile {
+	    width: 64%;
+	    height: 150px;
+	    padding-left: 7px;
+	    padding-right: 7px;
+	    padding-bottom: 7px;
+	}
+	.wImgGalleryHighMobile2 {
+	    width: 36%;
+	    padding-right: 7px;
+	    height: 150px;
+	    padding-bottom: 7px;
+	}
+	.wImgGalleryHighMobile3 {
+	    width: 37%;
+	    padding: 0 7px 7px 7px;
+	    height: 150px;
+	}
+	.wImgGalleryHighMobile4 {
+	    width: 63%;
+	    padding: 0 7px 7px 0;
+	    height: 150px;
+	}
+	.sectionGallery {
+		display: none;
+	}
+}

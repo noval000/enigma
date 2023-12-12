@@ -1,0 +1,315 @@
+/*    title vacancy   */
+
+.titleVacansySectionOne {
+    text-align: center;
+    padding: 75px 0 117px;
+    color: #FFF;
+    font-family: Oranienbaum;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60.8px;
+    text-transform: uppercase;
+}
+
+.spanTitleVacansy {
+    color: #C2A154;
+    text-align: center;
+    font-family: Oranienbaum;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60.8px; /* 95% */
+    text-transform: uppercase;
+}
+
+/*  card vacancy  */
+
+
+
+.sectionCardsVacansy {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.prSavafi {
+    padding-right: 180px;
+}
+
+.cardVacancy img {
+    max-width: 100%;
+    height: 220px;
+}
+
+.sectionCardVacancyTwo {
+    padding-top: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleCardVacancy {
+    padding-top: 39px;
+    color: #C2A154;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-transform: uppercase;
+}
+
+.prFull48px {
+    padding-right: 48px;
+}
+
+
+
+/*     work girl     */
+
+.bgVacansySection2 {
+    position: relative;
+    z-index: 3;
+}
+
+.blockWorkGirl {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: top;
+    column-gap: 41px;
+}
+
+.blockWorkGirl img {
+    max-width: 310px;
+    height: 217px;
+    border-radius: 20px;
+    padding-right: 41px;
+}
+
+
+.blockTextWorkGirl {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titleWorkGirl {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.32px;
+    padding-bottom: 22px;
+}
+
+.subtitleWorkGirl {
+    color: #B0B0B0;
+    font-family: Montserrat;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.spanSubtitleWorkGirl {
+    color: red;
+}
+
+/*    questions Vacancy  */
+
+
+.bgVacancySection3 {
+    flex-shrink: 0;
+    background-image: url("../img/vacancy/bgVacancy2.png");
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.allQuestionsVacancy {
+    padding-top: 85px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+}
+
+.answer {
+    color: #B0B0B0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 20px;
+}
+
+.questions {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.32px; /* 128.727% */
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.listAnswer {
+    color: #B0B0B0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 20px;
+}
+
+.pbAnswer {
+    padding-bottom: 60px;  
+}
+
+.listAnswer li {
+    list-style-type: disc;
+}
+
+
+/*  form vacancy   */
+
+.sectionAdvantagesWork {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fonFormVacansy {
+    height: 243px;
+    position: absolute;
+    flex-shrink: 0;
+    width: 100%;
+    background: #070707;
+    filter: blur(27.5px);
+    z-index: 0;
+    top: -128px;
+    margin-left: -24px;
+}
+
+
+.bgVacancyForm {
+    flex-shrink: 0;
+    background-image: url(../img/vacancy/bgVacancyForm.png);
+    max-width: 100%;
+    background-position: top -280px center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.pbVacancyForm {
+    margin-bottom: 60px;
+}
+
+.titleAdvantagesWork {
+    padding-bottom: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Oranienbaum;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60.8px; /* 95% */
+    text-transform: uppercase;
+}
+
+.subtitleAdvantagesWork {
+    color: #CCC;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 138.462% */
+    padding-bottom: 30px;
+}
+
+
+
+/*   gallery   */
+
+
+.sectionGallery {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pbPhotoGallery {
+    padding-bottom: 27px;
+    text-align: center;
+}
+
+.onePhoto img {
+    width: 100%;
+    height: auto;
+}
+
+.flexPhotoGallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    position: relative;
+}
+
+.flexPhotoGallery img {
+        width: 100%;
+        height: auto;
+    }
+
+.prImgGallery {
+    padding-right: 27px;
+}
+
+.flexPhotoGalleryEnd {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.flexPhotoEndTwo img {
+    width: 100%;
+    height: auto;
+}
+
+.wImgGalleryHigh {
+    width: 77%;
+    padding-right: 27px;
+}
+
+.gallery {
+    padding: 0px 20px;
+}
+
+.flexPhotoEndTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.pbAlignGal {
+    padding-bottom: 33px;
+}
+
+
+
+
+
+
+/*  menu btn   */
+

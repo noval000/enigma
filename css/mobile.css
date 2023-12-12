@@ -1,0 +1,1157 @@
+/*  mobile menu   */
+
+.subtitleMainSection2 br {
+	display: none;
+}
+
+.listMainCard br {
+	display: none;
+}
+
+.nameQuestions br {
+	display: none;
+}
+
+.ulListRightContent br {
+	display: none;
+}
+
+.titleForm br {
+	display: none;
+}
+
+.questions br {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+.mobileMenu {
+    display: none;
+    height: 95%;
+    right: 0;
+    background: rgba(31,31,31,.8);
+    position: fixed;
+    width: 90%;
+    z-index: 6;
+    border-radius: 20px;
+    top: 20px;
+    margin: 0px 20px;
+    border: 1px solid #fff;
+}
+
+.headerStyleMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 40px;
+    height: 100%;
+	background: rgb(0 0 0 / 80%);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.listMenuMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.btnContactMobile a {
+    color: #fff;
+    text-align: center;
+    width: 188px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .5s all ease;
+}
+
+.btnContactMobile {
+    background-color: #2f2f2f;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    width: 188px;
+    height: 35px;
+    flex-shrink: 0;
+    backdrop-filter: blur(3.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .5s all ease;
+}
+
+.listMenuMobile li a {
+	color: #fff;
+}
+
+.logoNameMobile {
+    color: #C2A154;
+    font-family: Monoton, sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.85px;
+    cursor: pointer;
+}
+
+.closeMenu {
+	color: #fff;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+
+@media (max-width: 1229px) {
+	.bgMainSection2 {
+		padding: 0 20px;
+	}
+}
+
+
+@media (max-width: 1148px) {
+	.flexPhotoGallery img {
+	    max-width: 34%;
+	    height: auto;
+	}
+	.wImgGalleryHigh {
+	    max-width: 75%;
+	    padding-right: 27px;
+	}
+	.flexPhotoEndTwo img {
+	    max-width: 100%;
+	    height: auto;
+	}
+
+}
+
+
+@media (max-width: 1024px) {
+	.cardVacancy img {
+	    max-width: 100%;
+	    height: 150px;
+	}
+	.iconPlus {
+	    padding-top: 70px;
+	}
+	.ptMobile {
+		padding-top: 30px;
+	}
+	.fonFormVacansy {
+	    height: 179px;
+	    position: absolute;
+	    flex-shrink: 0;
+	    width: 100%;
+	    background: #070707;
+	    filter: blur(27.5px);
+	    z-index: 0;
+	    top: -93px;
+	    margin-left: -10px;
+	}
+	.wImgGalleryHigh {
+	    max-width: 70%;
+	}
+	.bgVacansy {
+	    height: 1000px;
+	}
+	.rightContent {
+	    position: relative;
+	    z-index: 1;
+	    padding-right: 20px;
+	}
+	.sectionOne {
+	    height: 850px;
+	}
+	.blockFonAbout {
+	    height: 200px;
+	    top: 90px;
+	}
+	.prSavafi {
+	    padding-right: 54px;
+	}
+	.subtitleCardMain {
+	    width: 276px;
+	}
+	.iconPlus {
+	    margin-left: 0px;
+	}
+	.ourPlus {
+	    display: flex;
+	    align-items: flex-end;
+	    justify-content: space-between;
+	    position: relative;
+	    z-index: 3;
+	    padding: 0px 20px;
+	    max-width: 1200px;
+	    margin: 0 auto;
+	}
+	.sectionCardsVacansy {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.blockWorkGirl {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.allQuestionsVacancy {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.onePhoto img {
+	    padding: 0px 20px;
+	    max-width: 100%;
+	    height: auto;
+	}
+	.flexPhotoGallery img {
+	    padding: 0px 20px;
+	    max-width: 33%;
+	    height: auto;
+	}
+	.flexPhotoGalleryEnd img {
+	    width: 100%;
+	    height: auto;
+	    padding: 0px 20px;
+	}
+	.sectionCardsVacansy {
+	    column-gap: 10px;
+	}
+	.titleCardVacancy {
+	    padding-top: 15px!important;
+	    font-size: 14px!important;
+	}
+	.sectionCardVacancyTwo {
+	    column-gap: 10px!important;
+	    padding-top: 40px!important;
+	}
+	.subtitleWorkGirl {
+		color: #B0B0B0;
+	    font-family: Montserrat;
+	    font-size: 14px;
+	    font-style: normal;
+	    font-weight: 400;
+	    line-height: 22px;
+		letter-spacing: 0px;
+	}
+	.titleWorkGirl {
+	    font-size: 18px;
+	}
+	.sectionCardVacancyTwo {
+	    padding-left: 20px!important;
+	    padding-right: 20px!important;
+	    align-items: flex-start!important;
+	}
+	.flexPhotoGalleryEnd {
+	    justify-content: center;
+	}
+	.imageBlack {
+	    width: auto; 
+	    height: auto;
+	}
+	.imgGirl {
+	    left: 130px;
+	    width: auto;
+	    height: auto;
+	}
+	.titleRightContent {
+	    padding-top: 40px;
+	    width: auto;
+	    font-size: 24px;
+	    line-height: 40.8px;
+	}
+	.subtitleRightContent {
+	    width: auto;
+	    font-size: 14px;
+	    line-height: 18px;
+	    padding-top: 20px;
+	}
+	.footerSection2 {
+	    width: auto;
+	    padding: 0px 20px;
+	    font-size: 16px;
+	    margin: 170px auto 30px;
+	}
+	.numberCard {
+	    top: -20px;
+	    width: 60px;
+	    height: 40px;
+	    font-size: 18px;
+	}
+	.cardSectionOne {
+	    width: 230px;
+	    height: 310px;
+	}
+	.titleCardSectionOneIndiv {
+	    padding-top: 30px;
+	    padding-bottom: 10px;
+	    width: 142px;
+	    font-size: 14px;
+	}
+	.subtitleCardSectionOneIndividual {
+	    font-size: 12px;
+	    line-height: 14px;
+	}
+	.AllCardSectionOne {
+	    column-gap: 10px;
+	    justify-content: space-between;
+	    width: auto;
+	    padding: 0px 20px;
+	}
+	.titleCardSectionOne {
+	    font-size: 14px;
+	    width: auto;
+	    padding-bottom: 10px;
+	    padding-top: 30px;
+	    width: 128px;
+	}
+	.subtitleCardSectionOne {
+	    width: auto;
+	    font-size: 12px;
+	    line-height: 14px;
+	}
+	.listSubtitleRightContent {
+	    width: auto;
+	    height: auto;
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+	.ulListRightContent {
+	    font-size: 12px;
+	    line-height: 22px;
+	    padding-top: 10px;
+	}
+	.headerStyle {
+    	padding-left: 20px;
+    	padding-right: 20px;
+	}
+	.titleMainSectOne, .subtitleMainSecOne {
+	    position: relative;
+	    z-index: 1;
+	}
+	.zayavka {
+	    position: relative;
+	    z-index: 1;
+	    margin-left: 20px;
+	}
+	.borderBittomTitle {
+	    padding-left: 20px;
+	}
+	.ourPlus {
+	    justify-content: space-between;
+	}
+	.subtitleMainSection2 {
+		width: auto;
+    	padding-left: 20px;
+    	padding-right: 20px;
+	}
+	.cardsMainSection2 {
+	    display: flex;
+	    align-items: flex-start;
+	    justify-content: center;
+	    column-gap: 43px;
+	    margin-bottom: 94px;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	}
+	.titleAgencyEnigmaPlus, .subtitleAgencyEnigmaPlus {
+    	padding-left: 20px;
+    	padding-right: 20px;
+	}
+	.formMainAplication {
+    	padding-left: 20px;
+    	padding-right: 20px;
+	}
+	.footerOne {
+		padding-left: 20px;
+    	padding-right: 20px;
+	}
+	.flexQuestions {
+		padding-left: 20px;
+    	padding-right: 20px;
+	}
+	.formMainAplication {
+		margin-left: 20px;
+    	margin-right: 20px;
+	}
+	body {
+		background-color: #070707;
+	}
+}
+@media (max-width: 892px) {
+	.blockFon {
+		display: none;
+	}
+	.subtitleIcon {
+		width: 100%;
+	}
+	.sectionOneMain {
+	    background-image: url(../img/main/bgMain.png);
+	    max-width: 100%;
+	    height: 804px;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    position: relative;
+	}
+	.dNoneMobile {
+		display: none;
+	}
+	.openMenu {
+		display: flex;
+	}
+	.headerStyle {
+	    column-gap: 20px;
+	    justify-content: justify-content;
+	}
+	.ourPlus{
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: flex-start;
+	}
+	.colPlus {
+		width: 400px;
+	    margin: 0 auto;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: flex-start;
+	}
+	.zayavka {
+	    margin-left: 0;
+	    width: auto;
+	    height: auto;
+	    font-size: 16px;
+	    padding: 5px 55px;
+	    margin: 0 auto;
+	}
+	.titleMainSectOne {
+		position: relative;
+	    z-index: 1;
+	    padding-left: 40px;
+	    padding-right: 40px;
+	    width: 420px;
+	    font-size: 40px;
+	    line-height: 25px;
+	    margin: 0 auto;
+	    text-align: center;
+	    padding-top: 164px;
+	}
+	.subtitleMainSecOne {
+	    position: relative;
+	    z-index: 1;
+	    padding-left: 40px;
+	    padding-right: 40px;
+	    width: auto;
+	    padding-top: 0;
+	    font-size: 21px;
+	    text-align: center;
+	}
+	.subtitleMainSecOne {
+		width: 420px;
+		margin: -20px auto 0;
+	}
+	.zayavka {
+	    margin: 0 auto;
+	}
+	.zayavka a {
+	    color: #FFF;
+	    text-align: center;
+	    font-family: Montserrat;
+	    font-size: 15px;
+	    font-style: normal;
+	    font-weight: 400;
+	    line-height: 36px;
+	    text-transform: initial;
+	}
+	.spanTitleMainSectOne {
+	    color: #C2A154;
+	    font-family: Oranienbaum;
+	    font-size: 40px;
+	    font-style: normal;
+	    font-weight: 400;
+	    line-height: 54px;
+	    text-transform: uppercase;
+	    text-align: center;
+	}
+}
+
+
+
+@media (max-width: 768px) {
+	.formMainAplication {
+	    margin: 0 auto 60px;
+	}
+	.cardVacancy  {
+		margin-bottom: 50px;
+	}
+	.sectionCardVacancyTwo {
+	    flex-direction: column;
+	    align-items: center!important;
+	    padding-top: 0!important;
+	}
+	.bgVacansy {
+	    height: 1840px;
+	}
+	.blockFonVacancy {
+	    height: 220px;
+	    top: -25px;
+	}
+	.prFull48px {
+	    padding-right: 0px;
+	}
+	.sectionCardsVacansy {
+	    column-gap: 10px;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.cardVacancy img {
+	    max-width: 300px;
+	    height: auto;
+	}
+	.nameForm, .numberForm {
+	    padding: 13px 6px;
+	    margin-left: 0px;
+	}	
+	.titleForm {
+		width: 100%;
+	}
+	.blockFon {
+		display: block;
+	    height: 222px;
+	    position: relative;
+	    background: #060608;
+	    filter: blur(27.5px);
+	    z-index: 0;
+	    top: -135px;
+	}
+	.sectionOneMain {
+	    height: 850px;
+	}
+	.wImgGalleryHigh {
+	    max-width: 100%;
+	}
+	.flexPhotoEndTwo {
+		display: none;
+	}
+	.fonFormVacansy {
+	    height: 107px;
+	    top: -46px;
+	    margin-left: 0px;
+	}
+	.pr768pxMob {
+		padding-right: 10px;
+	}
+	.prSavafi {
+	    padding-right: 0;
+	}
+	.pt1024px {
+	    padding-top: 30px;
+	}
+	.footerSection2 {
+	    z-index: 3;
+	    top: 10px;
+	    position: relative;
+	}
+	.imageBlack {
+		display: none;
+	}
+	.listMenuMobile li {
+	    padding-bottom: 25px;
+	    font-family: Roboto;
+	    font-size: 14px;
+	}
+	.logoNameMobile {
+	    padding-bottom: 70px;
+	    font-size: 36px;
+	}
+	.logoName {
+		padding-right: 20px;
+		color: #C2A154;
+	}
+	.rightContent {
+	    position: relative;
+	    z-index: 1;
+	    padding-right: 20px;
+	}
+	.imgGirl {
+	    left: 40px;
+	    opacity: 0.4;
+	}
+	.footerSection2 {
+	    font-size: 14px;
+	    margin: 70px auto 20px;
+	    line-height: 20px;
+	}
+	.leftContent {
+	    width: 0;
+	}
+	.rightContent {
+	    width: 100%;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.pl79 {
+		padding-left: 0;
+    	padding-right: 5px;
+	}
+	.pr191 {
+		padding-right: 15px;
+	}
+	.colIcon {
+		padding-right: 0;
+	}
+	.textEndFooter {
+		font-size: 8px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.textIcon {
+		font-size: 14px;
+		text-align: center;
+	}
+	.w288 {
+		width: auto;
+	}
+	.listMenu {
+		display: none;
+	}
+}
+
+@media (max-width: 702px) {
+	.formMainAplication {
+	    margin: 20px 20px 60px 20px;
+	}
+	.rightMain {
+	    filter: brightness(70%);
+	}
+	.AllCardSectionOne {
+	    column-gap: 10px;
+	    justify-content: space-between;
+	    width: auto;
+	    padding: 0px 20px;
+	    flex-direction: column;
+	}
+	.cardSectionOne {
+	    width: 300px;
+	    height: 340px;
+	    margin-bottom: 50px;
+	}
+	.sectionOne {
+	    height: 1635px;
+	}
+	.blockFonAbout {
+	    height: 200px;
+	    top: -29px;
+	}
+	.subtitleCardSectionOne {
+	    width: auto;
+	    font-size: 13px;
+	    line-height: 19px;
+	}
+	.subtitleCardSectionOneIndividual {
+	    font-size: 12px;
+	    line-height: 19px;
+	    width: 270px;
+	}
+	.titleEnigma {
+		text-align: center;
+	}
+	.callMe {
+	    margin-bottom: 30px;
+	}
+	.pr191 {
+	    padding-right: 0px;
+	    padding-left: 20px;
+	    padding: 0 0 30px 20px;
+	}
+	.containerFooter {
+	    display: flex;
+	    padding: 75px 0px 15px 0px;
+	    justify-content: center;
+	    max-width: 1200px;
+	    flex-direction: column;
+	    align-items: center;
+	    margin: 0 auto;
+	}
+	.textFooterCopy {
+		text-align: center;
+	}
+	.textFooter {
+		margin-top: 30px;
+	}
+	.imgGirl img {
+	    max-width: 338px;
+	    height: auto;
+	    filter: brightness(40%);
+	}
+}
+
+@media (max-width: 425px) {
+	.subtitleMainSection2 {
+	    width: auto;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.subtitleMainSection2 br {
+		display: initial;
+	}
+	.subtitleCardSectionOneIndividual {
+	    width: auto;
+	}
+	.AllCardSectionOne {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.cardVacancy img {
+	    max-width: 300px;
+	    height: auto;
+	}
+	.containerFooter {
+	    display: flex;
+	    padding: 0px 0px 0px 0px;
+	    flex-direction: column;
+	}
+	.col {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.colPlus {
+	    width: 84%;
+	    padding: 0px 30px;
+	}
+	.sizeImage425px {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.bgVacansy {
+	    height: 1610px;
+	}
+	.sectionOne {
+	    height: 1460px;
+	}
+	.blockCard {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: flex-start;
+	    padding: 0 18px;
+	}
+	.flexPhotoGalleryEnd img {
+	    width: 100%;
+	    height: 110px;
+	    padding: 0px 20px;
+	}
+	.pbAnswerEnd {
+		padding-bottom: 0;
+	}
+	.imageCardMain {
+		padding-top: 60px;
+	}
+	.blockFonVacancy {
+	    height: 180px;
+	    position: relative;
+	    background: #000000;
+	    filter: blur(36.5px);
+	    z-index: 2;
+	    top: -170px;
+	}
+	.blockFonAbout {
+	    height: 130px;
+	    position: relative;
+	    background: #060608;
+	    filter: blur(27.5px);
+	    z-index: 2;
+	    top: -56px;
+	}
+	.spanTitleMainSectOne {
+	    font-size: 39px;
+	}
+	.sectionOneMain {
+	    height: 940px;
+	}
+	.textIcon {
+	    font-size: 19px;
+	    text-align: center;
+	}
+	.blockFon {
+	    height: 113px;
+	    position: relative;
+	    background: #060608;
+	    filter: blur(27.5px);
+	    z-index: 0;
+	    top: -180px;
+	}
+	.pr10mob {
+		padding-right: 10px;
+	}
+	.titleCardVacancy {
+	    padding-top: 15px!important;
+	    font-size: 14px!important;
+	}
+	.blockWorkGirl img {
+		display: none;
+	}
+	.allQuestionsVacancy {
+	    padding-top: 40px;
+	}
+	.questions {
+	    font-size: 15px;
+    	font-weight: bold;
+    	line-height: 22.32px;
+	}
+	.titleAdvantagesWork {
+	    padding-bottom: 10px;
+	    font-size: 35px;
+	    line-height: 35.8px;
+	}
+	.textAdvantagesWork {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.pbPhotoGallery {
+	    padding-bottom: 15px;
+	}
+	.titleVacansySectionOne {
+	    padding: 50px 0 50px!important;
+	    font-size: 39px!important;
+	    line-height: 40px!important;
+	    width: 100%;
+	}
+	.sectionCardVacancyTwo {
+	    position: relative;
+	    padding-bottom: 60px!important;
+	    z-index: 10;
+	}
+	.spanTitleVacansy {
+	    width: 100%;
+	    font-size: 39px;
+	    text-align: center;
+	    line-height: 17px;
+	}
+	.listAnswer {
+	    font-size: 14px;
+	}
+	.numberCard {
+	    top: -10px;
+	    width: 30px;
+	    height: 20px;
+	    font-size: 10px;
+	}
+	.cardSectionOne {
+	    width: 300px;
+	    height: 330px;
+	    margin-top: 20px;
+	}
+	.titleSectionOneAboutUs {
+	    padding-bottom: 0px;
+	}
+	.titleSectionOneAboutUs {
+	    padding-top: 50px;
+	    font-size: 39px;
+	    padding-left: 20px;
+	    line-height: 20px;
+	    padding-bottom: 30px;
+	    padding-right: 20px;
+	}
+	.EnigmaSecOne {
+	    font-size: 39px;
+	}
+	.titleCardSectionOneIndiv {
+	    padding-bottom: 6px;
+	    padding-top: 30px;
+	    line-height: 17px;
+	    font-size: 14px;
+	}
+	.subtitleCardSectionOneIndividual {
+	    width: auto;
+	    font-size: 12px;
+	    line-height: 20px;
+	    padding: 10px;
+	}
+	.subtitleCardSectionOne {
+	    width: auto;
+	    font-size: 12px;
+	    line-height: 20px;
+	    padding: 10px;
+	}
+	.titleCardSectionOne {
+	    font-size: 14px;
+	    line-height: 17px;
+	    padding-bottom: 6px;
+	    padding-top: 30px;
+	}
+	.AllCardSectionOne {
+	    flex-wrap: wrap;
+    	justify-content: space-around;
+	}
+	.blockCard {
+		padding: 0 10px;
+	}
+	.titleMainSectOne {
+		padding-left: 20px;
+    	padding-right: 20px;
+	    width: 100%;
+	    font-size: 39px;
+	    text-align: center;
+	    line-height: 17px;
+	}
+	.subtitleMainSecOne {
+	    padding-left: 0;
+	    width: 330px;
+	    font-size: 14px;
+	    text-align: center;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.ourPlus {
+		padding-left: 0;
+	}
+	.dollars {
+	    color: #C2A154;
+	    font-family: Montserrat;
+	    font-size: 14px;
+	    font-style: normal;
+	    font-weight: 500;
+	    line-height: 21.85px;
+	}
+	.titleMainSection2 {
+	    padding-top: 100px;
+	    padding-bottom: 15px;
+	    font-size: 36px;
+	}
+	.subtitleMainSection2 {
+	    font-size: 15px;
+	    padding-bottom: 30px;
+	    line-height: 27.7px;
+	}
+	.titleForm {
+		color: #C2A154;
+		text-align: center;
+		font-family: Oranienbaum;
+		font-size: 25px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 31.14px;
+		text-transform: uppercase;
+	    width: 100%;
+	    padding-top: 25px;
+	}
+	.subtitleForm {
+	    margin-bottom: 20px;
+	    padding-top: 3px;
+	}
+	.formMainAplication {
+	    backdrop-filter: none;
+    	margin: 20px 10px 60px 10px;
+	    padding-right: 0px;
+	    padding-left: 0px;
+	}
+	.formFlex {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    padding-bottom: 40px;
+	    flex-direction: column;
+	}
+	.nameForm, .numberForm {
+	    margin-right: 0;
+	    padding: 9px 16px;
+	    margin-bottom: 15px;
+	    width: 86%;
+	    margin-left: 0;
+	}
+
+	.formFlex {
+		row-gap: 10px;
+	}
+	.nameForm::-webkit-input-placeholder {
+		font-size: 12px;
+	}
+	.nameForm:-moz-placeholder {
+		font-size: 12px;
+	}
+	.titleQuestions {
+	    font-size: 36px;
+	}
+	.spanQuestions {
+	    font-size: 36px;
+	}
+	.titleQuestions {
+	    line-height: 10px;
+	    text-align: center;
+	}
+	.openQuestion {
+	    padding: 3px;
+	    border-radius: 100px;
+	    width: 27px;
+	    height: 27px;
+	}
+	.titleEnigma {
+	    font-size: 24px;
+	}
+	.callMe {
+	    margin-top: 20px;
+	    margin-bottom: 30px;
+	}
+	.btnContact a {
+	    font-size: 10px;
+	    line-height: 23px;
+	}
+	.btnContact {
+	    font-size: 13px;
+	    width: 140px;
+	    height: 30px;
+	}
+	.pb14 {
+	    padding-bottom: 0px;
+	}
+	.mainFooter a, .aboutFooter a, .contactsFooter a {
+	    font-size: 10px;
+	    line-height: 5.7px;
+	}
+	.iconVk img {
+		width: 25px;
+	    height: 25px;
+	}
+	.iconInst img {
+	    width: 25px;
+	    height: 25px;
+	}
+	.textFooter a {
+	    font-size: 8px;
+	}
+	.textFooterCopy a {
+	    font-size: 8px;
+	}
+	.nameQuestions {
+	    font-size: 14px;
+	}
+	.textFooterCopyMobile {
+		margin-top: 20px;
+		display: block;
+	}
+	.textFooterCopyMobile a {
+		color: #A2A2A2;
+		text-align: center;
+		font-family: Roboto;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 21.7px; /* 155% */
+	}
+	.footerAbout {
+		margin-top: 60px;
+	}
+	.footerVacancy {
+		margin-top: 60px;
+	}
+	.textEndFooter {
+		color: #A2A2A2;
+		text-align: center;
+		font-family: Roboto;
+		font-size: 9px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 14.2px; /* 157.778% */
+	}
+
+	.footerTwo {
+	    flex-direction: column;
+	}
+	.textRight {
+		display: none;
+	}
+	.colMobile {
+	    flex-direction: row;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.colIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+	}
+	.pr191 {
+	    padding: 0;
+	}
+	.pl79 {
+	    padding-left: 0;
+	    padding-right: 20px;
+	}
+	.yourApplication {
+	    padding: 13px 10px;
+	    width: 86%;
+	    font-size: 12px;
+	}
+	.zayavka {
+		margin-left: 0;
+	    width: auto;
+	    height: auto;
+	    font-size: 16px;
+	    padding: 5px 55px;
+	    margin: 0 auto;
+	}
+	.subtitleCardMain {
+	    width: 100%;
+	}
+	.listMainCard br {
+		display: initial;
+	}
+	.nameQuestions br {
+		display: initial;
+	}
+	.ulListRightContent br {
+		display: initial;
+	}
+	.imgGirl {
+	    left: 40px;
+	    opacity: 0.4;
+	}
+	.titleForm br {
+		display: initial;
+	}
+	.spanTitleVacansy br {
+		display: none;
+	}
+	.questions br {
+		display: initial;
+	}
+	.bgVacancyForm {
+	    flex-shrink: 0;
+	    background-image: url(../img/formMobile.png);
+	    max-width: 100%;
+	    background-position: top -29px left -268px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    padding-top: 120px;
+	    position: relative;
+	    margin-top: -60px;
+	}
+	.pbAnswerEnd {
+	    padding-bottom: 0px;
+	}
+	.fonFormVacansy {
+	    height: 134px;
+	    top: 15px;
+	    margin-left: 0px;
+	}
+}
+
